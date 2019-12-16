@@ -1,6 +1,6 @@
 # シンプルコインプッシャー
 
-![gif][gifanim]
+![CoinPusherGif](https://i.gyazo.com/a8630abbea68abda8ad812180f54ff53.gif)
 
 Unityで作る簡単コインプッシャープロジェクト
 
@@ -32,5 +32,3 @@ Unityで作る簡単コインプッシャープロジェクト
   * ScoreRemover.cs
 
 This project refer to http://www.nicovideo.jp/watch/sm12948504
-
-[gifanim]: https://dl.dropboxusercontent.com/u/223330976/gif/SimpleCoinPusherCompleteScene.gif
