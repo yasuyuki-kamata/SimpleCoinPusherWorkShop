@@ -14,22 +14,22 @@ Unityで作る簡単コインプッシャープロジェクト
   * 色つけ Material
 2. 土台を作る
 3. コインを生成させる
-  * Spawner.cs
+  * [Spawner.cs](./Assets/CompletedProject/Scripts/Spawner.cs)
     * Instantiate
 4. プッシャーを作る
-  * Pusher.cs
+  * [Pusher.cs](./Assets/CompletedProject/Scripts/Pusher.cs)
     * rigidbody.Moveposition
     * Mathf.Sin
 5. つっかえ棒作る
 6. リムーバーを作る
-  * Remover.cs
+  * [Remover.cs](./Assets/CompletedProject/Scripts/Remover.cs)
     * OnTriggerEnter
 7. スコアを作る
-  * Score.cs
+  * [Score.cs](./Assets/CompletedProject/Scripts/Score.cs)
 8. スコアを表示させる
   * Text
 9. スコアリムーバーを作る
-  * ScoreRemover.cs
+  * [ScoreRemover.cs](./Assets/CompletedProject/Scripts/ScoreRemover.cs)
 
 This project refer to http://www.nicovideo.jp/watch/sm12948504
 
