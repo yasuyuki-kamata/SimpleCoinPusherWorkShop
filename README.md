@@ -32,3 +32,5 @@ Unityで作る簡単コインプッシャープロジェクト
   * ScoreRemover.cs
 
 This project refer to http://www.nicovideo.jp/watch/sm12948504
+
+次のステップ（参考）: [here](./nextstep_reference.md)
