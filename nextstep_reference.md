@@ -3,8 +3,8 @@
 ## 公式チュートリアル
 
 - Unity Hub -> Learn
-- learn.unity.com
-- learning.unity3d.jp
+- https://learn.unity.com/
+- https://learning.unity3d.jp/
 
 ## 書籍
 
