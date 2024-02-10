@@ -1,22 +1,18 @@
-﻿using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
+using TMPro;
+using UnityEngine;
 
-namespace CompletedProject
+public class Score : MonoBehaviour
 {
-	public class Score : MonoBehaviour
-	{
-		public static int score;
-		public Text scoreText;
+    public static int score;
+    public TMP_Text scoreText;
 
-		void Awake ()
-		{
-			score = 50;
-		}
+    void Awake ()
+    {
+        score = 50;
+    }
 		
-		void Update ()
-		{
-			scoreText.text = score.ToString ();
-		}
-	}
+    void Update ()
+    {
+        scoreText.text = score.ToString ();
+    }
 }
