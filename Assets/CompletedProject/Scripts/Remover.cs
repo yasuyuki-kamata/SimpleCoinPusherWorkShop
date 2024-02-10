@@ -1,13 +1,9 @@
-﻿using UnityEngine;
-using System.Collections;
+using UnityEngine;
 
-namespace CompletedProject
+public class Remover : MonoBehaviour
 {
-	public class Remover : MonoBehaviour
+	private void OnTriggerEnter(Collider other)
 	{
-		void OnTriggerEnter (Collider col)
-		{
-			Destroy (col.gameObject);
-		}
+		Destroy(other.gameObject);
 	}
 }

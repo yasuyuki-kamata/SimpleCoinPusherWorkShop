@@ -1,14 +1,10 @@
-﻿using UnityEngine;
-using System.Collections;
+using UnityEngine;
 
-namespace CompletedProject
+public class ScoreRemover : MonoBehaviour
 {
-	public class ScoreRemover : MonoBehaviour
-	{
-		void OnTriggerEnter (Collider col)
-		{
-			Destroy (col.gameObject);
-			Score.score += 3;
-		}
-	}
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(other.gameObject);
+        Score.score += 3;
+    }
 }
